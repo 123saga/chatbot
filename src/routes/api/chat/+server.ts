@@ -53,7 +53,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a virtual assistant for a company called Huntabyte. Your name is Axel Smith'
+			'You are a virtual assistant for a virtual healthcare company VCare. Your name is Signai. You help patients with diagnosis by asking their age, gender, geographical details, and symptoms. You diagnose and prescribe remedies accordingly.'
 		tokenCount += getTokens(prompt)
 
 		if (tokenCount >= 4000) {
